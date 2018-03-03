@@ -1,0 +1,307 @@
+.mdl-layout__header{
+    background-color: #0C1481;   
+}
+.my-nav-style-a:hover{
+    text-decoration: none;
+    color: #434EEC;
+}
+.my-nav-style-a{
+    
+    font-weight: bold;
+}
+.mdl-layout__header, .mdl-layout__obfuscator, .mdl-layout__drawer{
+    position: fixed;
+}
+.num-of-item{
+    color:#08F700;
+    
+}
+.mdl-textfield__expandable-holder{
+    margin-right:50px;
+}
+.intro{
+    display: flex;
+    width:100%;
+    height: 100vh;
+    background: url(../images/intro1.jpg) no-repeat scroll center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    
+}
+.intro .caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    color:#fff;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 5px #000;
+    padding: 15px;
+}
+.intro .caption h1{
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+.intro .caption p{
+    font-size: 24px;
+    margin: 0;
+}
+.intro .caption p:last-child{
+    font-size: 20px;
+    margin-top:15px;
+}
+.intro .caption p img{
+    width:28px;
+    height:28px;
+}
+.accessories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;    
+}
+.col-sm-6, .col-md-6, .col-lg-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail{
+    display: flex;
+    flex-flow: column;
+    height: 450px;
+    max-width: 320px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.thumbnail img{
+    height: 180px;
+}
+.thumbnail .caption h5{
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    margin-top:10px;
+}
+.thumbnail .caption p{
+    text-align: justify;
+    font-size: 14px;
+}
+.thumbnail .caption button, .mdl-card__actions a{
+    width:100%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+}
+.thumbnail .caption button{
+    bottom: 5px;
+}
+.thumbnail .caption a:hover{
+    color: #434EEC;
+    
+}
+.delivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+/*    height: 100vh;*/
+    color: #000;
+     background: url(../images/warehouse.jpg) no-repeat scroll center;
+    background-size: cover;
+    
+}
+
+.delivery h1{
+    font-size:24px;
+}
+.delivery p{
+    
+    text-align: center;
+}
+.delivery ul{
+    margin:0px;
+}
+
+.demo-card-wide{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mdl-card__supporting-text{
+    text-align: justify;
+    color: #000;
+}
+.send-order{
+    width: 100%;
+}
+.nova_poshta{
+    background: url(../images/nova-poshta.png) no-repeat center;
+    
+
+}
+
+.intime{
+    background: url(../images/intime.svg) no-repeat center;
+
+}
+.nova_poshta, .intime{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: contain;
+    
+ 
+    
+
+/*    opacity: 0.5;*/
+}
+.demo-card-wide{
+    margin-bottom: 12px;
+}
+.pickup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+    margin-top:10px;
+}
+#map{
+    width: 80%;
+    height: 300px;
+}
+.delivery hr{
+    text-align: center;
+    background-color: #0C1481;
+    height: 3px;
+    width:90%;
+    
+}
+.shoppingcart{
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/shoppingcart.jpg) no-repeat scroll center;
+    background-size: 30%;
+}
+.total-price{
+    top: 30px;
+}
+.cart-accessory .thumbnail{
+    width: 250px;
+    height:350px;
+}
+.shoppingcart .container .row{
+    min-height: 500px;
+}
+.order{
+    margin-bottom: 15px;
+}
+.feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/feedback.jpg) no-repeat scroll center;
+    background-size: cover;
+/*    background-color: #CCCCFF;*/
+}
+.feedback h5{
+    padding: 15px;
+}
+.feedback-form{
+    background-color: rgba(0,0,0,0.3);
+/*    padding: 10px 50px 10px 50px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feedback form{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    width:80%;
+}
+.feedback-msg{
+    height:20px;
+}
+.email, .subject{
+    height: 74px;
+}
+
+.mdl-textfield.is-invalid .mdl-textfield__input{
+    border-color: rgb(255,255,255);
+    font-size: 14px;
+}
+.mdl-textfield--floating-label.is-invalid .mdl-textfield__label{
+    font-size: 14px;
+    color:rgb(255,255,255);
+}
+.description{
+    height: 134px;
+}
+.description textarea{
+    resize: none;
+    color:white;
+}
+
+.carousel{
+    height:200px;
+/*    min-width:500px;*/
+}
+.carousel-inner img {
+  height: 200px !important;
+    width: auto;
+    
+  margin: 0 auto;
+}
+.carousel-indicators li {
+  border-color: #fff;
+}
+.carousel-indicators .active {
+  background-color: #DFDFDF;
+}
+.modal-body h1{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.modal-body p{
+    text-align: justify;
+}
+
+footer{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303030;
+
+    height:45px;
+}
+footer img{
+    width:20px;
+    height: 20px;
+}
+footer img:hover{
+    cursor: pointer;
+    width:25px;
+    height: 25px;
+}
