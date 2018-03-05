@@ -1,13 +1,12 @@
 <?php
 if((isset($_POST['name']) && $_POST['name']!='') && isset($_POST['surname']) && $_POST['surname']!='' && isset($_POST['region']) && $_POST['region']!='' && isset($_POST['city']) && $_POST['city']!='' && isset($_POST['deliveryMethod']) && $_POST['deliveryMethod']!='' && isset($_POST['adress']) && $_POST['adress']!='' && isset($_POST['typeOfPayment']) && $_POST['typeOfPayment']!='' && isset($_POST['phoneNumber']) && $_POST['phoneNumber']!='' && isset($_POST['arrOfOrders'])){
-//    var_dump($_POST);
+
     foreach($_POST as $key=>$value){
         if(!is_array($value)){
             $_POST[$key] = strip_tags($value);
         }        
     }
-//    echo "<br>";
-//    var_dump($_POST);
+
     $to = "nata391995@gmail.com";
     $sendFrom ="noreply@site.com";
     $subject = "Новый заказ!";
